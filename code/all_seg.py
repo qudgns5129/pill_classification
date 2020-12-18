@@ -33,7 +33,7 @@ for idxs in range(1,23224):
 
                 crop_img = img[y1:y2, x1:x2, :]
                 try:
-                    cv2.imwrite('../seg_image/pillbox_{}_{}.jpg'.format(idxs,cidx), crop_img)
+                    # cv2.imwrite('../seg_image/pillbox_{}_{}.jpg'.format(idxs,cidx), crop_img)
                 except:
                     continue
     else:
@@ -80,5 +80,5 @@ for idxs in range(1,23224):
 
             subimg = dst[y:y+h, x:x+w]
             # subimg2 = cv2.resize(subimg, dsize=(100, 100), interpolation=cv2.INTER_AREA)
-            cv2.imwrite('../seg_image/pillbox_{}_{}.jpg'.format(idxs,idx), subimg)
+            # cv2.imwrite('../seg_image/pillbox_{}_{}.jpg'.format(idxs,idx), subimg)
         print('{}번째 끝'.format(idxs+1))
