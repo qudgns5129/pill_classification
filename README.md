@@ -1,6 +1,6 @@
 # Broken Pill Classification
 ---------------------------------
-CNN model classifies broken pills  
+Broken and Undroken pill images Classification  
   
 ## Sequence
 ---------------------------------
@@ -12,14 +12,16 @@ CNN model classifies broken pills
 ## Example Data
 ---------------------------------
 ##### Raw image
-![image](https://user-images.githubusercontent.com/47845170/97089189-30c0f680-1671-11eb-9a39-e12d2552cf62.png)
+![image](https://user-images.githubusercontent.com/47845170/102589261-175c9800-4152-11eb-8244-0f56216804c1.png)
 ##### Image with segmentation
-![image](https://user-images.githubusercontent.com/47845170/97089170-0d964700-1671-11eb-8b9a-419b84f9eec1.png)
+![image](https://user-images.githubusercontent.com/47845170/102589350-3d823800-4152-11eb-83e8-0264d76d501b.png)
 ##### Saved image
-![image](https://user-images.githubusercontent.com/47845170/97091800-81d4e880-1679-11eb-9c3f-0c01eb748e8a.png)
+![image](https://user-images.githubusercontent.com/47845170/102589405-512d9e80-4152-11eb-838d-c4a5f71d2726.png)
+##### Making Broken Pill images
+![image](https://user-images.githubusercontent.com/47845170/102589205-0449c800-4152-11eb-8ab1-9cdbb80cfc3c.png)
 
 ## Models
 ---------------------------------
-- yolov3
-- Faster-R-CNN
-- antialiased-cnns
+- VGG16  
+- GoogLeNet  
+- ResNet50  
