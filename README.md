@@ -19,6 +19,7 @@ Broken and Undroken pill images Classification
 ![image](https://user-images.githubusercontent.com/47845170/102589405-512d9e80-4152-11eb-838d-c4a5f71d2726.png)
 ##### Making Broken Pill images
 ![image](https://user-images.githubusercontent.com/47845170/102589205-0449c800-4152-11eb-8ab1-9cdbb80cfc3c.png)
+![image](https://user-images.githubusercontent.com/47845170/102589545-7f12e300-4152-11eb-9a5d-99ad8e14ab70.png)
 
 ## Models
 ---------------------------------
