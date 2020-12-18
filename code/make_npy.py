@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import random
 
-path = '../pill_bbox'
+path = '../seg_image'
 names = os.listdir(path)
 
 min_pix = 1
@@ -22,11 +22,11 @@ for i in range(len(names)):
 
         subimg = img[rand_x:rand_x+rand_h, rand_y:rand_y+rand_w]
         subimg = cv2.resize(subimg, dsize=(224, 224), interpolation=cv2.INTER_AREA)
-        cv2.imwrite('../pill_bbox_result2/{}_{}.jpg'.format(names[i][:-4],j), subimg)
+        cv2.imwrite('../bbox_image/{}_{}.jpg'.format(names[i][:-4],j), subimg)
 
 
 # 이미지 불러오기
-path = 'C:/Users/student/pill/pill_bbox_result'
+path = '../bbox_image'
 names = os.listdir(path)
 
 img = []
