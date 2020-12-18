@@ -40,8 +40,8 @@ def f1_m(y_true, y_pred):
     return 2*((precision*recall)/(precision+recall+K.epsilon()))
 
 
-X_result = np.load('X_result.npy')
-y_result = np.load('y_result.npy')
+X_result = np.load('../array/X_result.npy')
+y_result = np.load('../array/y_result.npy')
 
 # 데이터 set 나누기
 X_train, X_test, y_train, y_test = train_test_split(X_result, y_result, test_size=0.2, shuffle=True)
@@ -55,10 +55,10 @@ y_test = pd.get_dummies(y_test)
 
 # VGG16
 vgg_model = VGG16(weights = "imagenet", include_top=False, input_shape=(224,224,3))
-"""
+
 for layer in vgg_model.layers[:19]:
     layer.trainable = False
- """
+
 out = vgg_model.output
 x = Flatten()(out)
 x = Dense(units=4096, activation='relu')(x)
